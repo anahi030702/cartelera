@@ -13,6 +13,16 @@
 		88BE91F82C928A5C00DF680E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 88BE91F72C928A5C00DF680E /* Base */; };
 		88BE91FA2C928A5D00DF680E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BE91F92C928A5D00DF680E /* Assets.xcassets */; };
 		88BE91FD2C928A5D00DF680E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 88BE91FC2C928A5D00DF680E /* Base */; };
+		88BE920F2C928C0200DF680E /* barra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE92042C928C0200DF680E /* barra.jpg */; };
+		88BE92102C928C0200DF680E /* Cinépolis.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BE92052C928C0200DF680E /* Cinépolis.png */; };
+		88BE92112C928C0200DF680E /* pelicula1cartel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE92062C928C0200DF680E /* pelicula1cartel.jpg */; };
+		88BE92122C928C0200DF680E /* pelicula1sinopsisq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE92072C928C0200DF680E /* pelicula1sinopsisq.jpg */; };
+		88BE92132C928C0200DF680E /* pelicula2cartel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE92082C928C0200DF680E /* pelicula2cartel.jpg */; };
+		88BE92142C928C0200DF680E /* pelicula2sinopsis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE92092C928C0200DF680E /* pelicula2sinopsis.jpg */; };
+		88BE92152C928C0200DF680E /* pelicula3cartel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE920A2C928C0200DF680E /* pelicula3cartel.jpg */; };
+		88BE92162C928C0200DF680E /* pelicula3sinopsis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE920B2C928C0200DF680E /* pelicula3sinopsis.jpg */; };
+		88BE92172C928C0200DF680E /* pelicula4cartel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE920C2C928C0200DF680E /* pelicula4cartel.jpg */; };
+		88BE92182C928C0200DF680E /* pelicula4sinopsis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88BE920D2C928C0200DF680E /* pelicula4sinopsis.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		88BE91F92C928A5D00DF680E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BE91FC2C928A5D00DF680E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88BE91FE2C928A5D00DF680E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88BE92042C928C0200DF680E /* barra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barra.jpg; sourceTree = "<group>"; };
+		88BE92052C928C0200DF680E /* Cinépolis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cinépolis.png"; sourceTree = "<group>"; };
+		88BE92062C928C0200DF680E /* pelicula1cartel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pelicula1cartel.jpg; sourceTree = "<group>"; };
+		88BE92072C928C0200DF680E /* pelicula1sinopsisq.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pelicula1sinopsisq.jpg; sourceTree = "<group>"; };
+		88BE92082C928C0200DF680E /* pelicula2cartel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pelicula2cartel.jpg; sourceTree = "<group>"; };
+		88BE92092C928C0200DF680E /* pelicula2sinopsis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pelicula2sinopsis.jpg; sourceTree = "<group>"; };
+		88BE920A2C928C0200DF680E /* pelicula3cartel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pelicula3cartel.jpg; sourceTree = "<group>"; };
+		88BE920B2C928C0200DF680E /* pelicula3sinopsis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pelicula3sinopsis.jpg; sourceTree = "<group>"; };
+		88BE920C2C928C0200DF680E /* pelicula4cartel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pelicula4cartel.jpg; sourceTree = "<group>"; };
+		88BE920D2C928C0200DF680E /* pelicula4sinopsis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pelicula4sinopsis.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +80,30 @@
 				88BE91F22C928A5C00DF680E /* SceneDelegate.swift */,
 				88BE91F42C928A5C00DF680E /* ViewController.swift */,
 				88BE91F62C928A5C00DF680E /* Main.storyboard */,
+				88BE920E2C928C0200DF680E /* Images */,
 				88BE91F92C928A5D00DF680E /* Assets.xcassets */,
 				88BE91FB2C928A5D00DF680E /* LaunchScreen.storyboard */,
 				88BE91FE2C928A5D00DF680E /* Info.plist */,
 			);
 			path = cartelera;
+			sourceTree = "<group>";
+		};
+		88BE920E2C928C0200DF680E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				88BE92042C928C0200DF680E /* barra.jpg */,
+				88BE92052C928C0200DF680E /* Cinépolis.png */,
+				88BE92062C928C0200DF680E /* pelicula1cartel.jpg */,
+				88BE92072C928C0200DF680E /* pelicula1sinopsisq.jpg */,
+				88BE92082C928C0200DF680E /* pelicula2cartel.jpg */,
+				88BE92092C928C0200DF680E /* pelicula2sinopsis.jpg */,
+				88BE920A2C928C0200DF680E /* pelicula3cartel.jpg */,
+				88BE920B2C928C0200DF680E /* pelicula3sinopsis.jpg */,
+				88BE920C2C928C0200DF680E /* pelicula4cartel.jpg */,
+				88BE920D2C928C0200DF680E /* pelicula4sinopsis.jpg */,
+			);
+			name = Images;
+			path = ../../Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +164,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BE92172C928C0200DF680E /* pelicula4cartel.jpg in Resources */,
+				88BE920F2C928C0200DF680E /* barra.jpg in Resources */,
+				88BE92182C928C0200DF680E /* pelicula4sinopsis.jpg in Resources */,
+				88BE92142C928C0200DF680E /* pelicula2sinopsis.jpg in Resources */,
 				88BE91FA2C928A5D00DF680E /* Assets.xcassets in Resources */,
+				88BE92102C928C0200DF680E /* Cinépolis.png in Resources */,
+				88BE92112C928C0200DF680E /* pelicula1cartel.jpg in Resources */,
 				88BE91FD2C928A5D00DF680E /* Base in Resources */,
 				88BE91F82C928A5C00DF680E /* Base in Resources */,
+				88BE92132C928C0200DF680E /* pelicula2cartel.jpg in Resources */,
+				88BE92122C928C0200DF680E /* pelicula1sinopsisq.jpg in Resources */,
+				88BE92152C928C0200DF680E /* pelicula3cartel.jpg in Resources */,
+				88BE92162C928C0200DF680E /* pelicula3sinopsis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
