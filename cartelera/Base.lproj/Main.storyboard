@@ -42,6 +42,9 @@
                                                 </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Button" image="pelicula1cartel.jpg"/>
+                                                <connections>
+                                                    <segue destination="02I-VY-z88" kind="presentation" modalPresentationStyle="automatic" id="GwQ-vx-r1X"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El reino del planeta de los simios" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="3Fn-dq-l3D">
                                                 <rect key="frame" x="16" y="245" width="183" height="50"/>
@@ -225,11 +228,52 @@
             </objects>
             <point key="canvasLocation" x="131.25" y="-34.859154929577464"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="XqT-Pm-5Vo">
+            <objects>
+                <viewController id="02I-VY-z88" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="njZ-Fp-ZQs">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pelicula1sinopsisq.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RDs-f3-gFM">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="430"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RDs-f3-gFM" secondAttribute="height" multiplier="1:1" id="EK4-8O-J1O"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="vZg-5D-OVh">
+                                <rect key="frame" x="10" y="430" width="410" height="492"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="C7X-yc-x0a"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="C7X-yc-x0a" firstAttribute="bottom" secondItem="vZg-5D-OVh" secondAttribute="bottom" id="21V-Yh-wVy"/>
+                            <constraint firstItem="C7X-yc-x0a" firstAttribute="trailing" secondItem="vZg-5D-OVh" secondAttribute="trailing" constant="10" id="AbD-E2-uLK"/>
+                            <constraint firstItem="RDs-f3-gFM" firstAttribute="top" secondItem="C7X-yc-x0a" secondAttribute="top" id="L9B-yY-6uo"/>
+                            <constraint firstItem="RDs-f3-gFM" firstAttribute="width" secondItem="njZ-Fp-ZQs" secondAttribute="width" id="f1o-EG-8AS"/>
+                            <constraint firstItem="RDs-f3-gFM" firstAttribute="centerX" secondItem="njZ-Fp-ZQs" secondAttribute="centerX" id="j6P-UA-zHS"/>
+                            <constraint firstItem="vZg-5D-OVh" firstAttribute="top" secondItem="RDs-f3-gFM" secondAttribute="bottom" id="tg3-RY-mOX"/>
+                            <constraint firstItem="vZg-5D-OVh" firstAttribute="leading" secondItem="C7X-yc-x0a" secondAttribute="leading" constant="10" id="uou-iD-0mn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BfQ-PO-cJn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808" y="-30"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Cinépolis.png" width="1280" height="363"/>
         <image name="barra.jpg" width="639.91998291015625" height="102"/>
         <image name="pelicula1cartel.jpg" width="800" height="800"/>
+        <image name="pelicula1sinopsisq.jpg" width="800" height="800"/>
         <image name="pelicula2cartel.jpg" width="800" height="800"/>
         <image name="pelicula3cartel.jpg" width="800" height="800"/>
         <image name="pelicula4cartel.jpg" width="800" height="800"/>
