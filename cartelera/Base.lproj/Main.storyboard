@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -14,21 +14,164 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="cartelera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cinépolis.png" translatesAutoresizingMaskIntoConstraints="NO" id="k56-3m-NAl">
-                                <rect key="frame" x="42.666666666666657" y="46.999999999999993" width="342.66666666666674" height="97.333333333333314"/>
+                                <rect key="frame" x="43" y="59.000000000000007" width="344" height="97.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="k56-3m-NAl" secondAttribute="height" multiplier="320:91" id="8DB-nA-Esd"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barra.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FVl-jE-8ws">
-                                <rect key="frame" x="0.0" y="144.33333333333334" width="428" height="68.333333333333343"/>
+                                <rect key="frame" x="0.0" y="156.66666666666666" width="430" height="68.666666666666657"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="FVl-jE-8ws" secondAttribute="height" multiplier="320:51" id="ATO-6G-Bir"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1dw-LG-R7Z">
+                                <rect key="frame" x="0.0" y="225.33333333333331" width="430" height="672.66666666666674"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FwY-hS-NyH">
+                                        <rect key="frame" x="0.0" y="0.0" width="215" height="336.33333333333331"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATQ-V5-Qze">
+                                                <rect key="frame" x="10.666666666666671" y="51.333333333333357" width="193.66666666666663" height="193.66666666666663"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ATQ-V5-Qze" secondAttribute="height" multiplier="1:1" id="XdK-ci-0Il"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="pelicula1cartel.jpg"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El reino del planeta de los simios" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="3Fn-dq-l3D">
+                                                <rect key="frame" x="16" y="245" width="183" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="jLt-p3-fhQ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="3Fn-dq-l3D" firstAttribute="top" secondItem="ATQ-V5-Qze" secondAttribute="bottom" id="2wk-6m-NcL"/>
+                                            <constraint firstItem="ATQ-V5-Qze" firstAttribute="width" secondItem="FwY-hS-NyH" secondAttribute="width" multiplier="0.9" id="4cP-JU-AyC"/>
+                                            <constraint firstItem="ATQ-V5-Qze" firstAttribute="centerX" secondItem="FwY-hS-NyH" secondAttribute="centerX" id="GsH-Bh-ySJ"/>
+                                            <constraint firstItem="3Fn-dq-l3D" firstAttribute="width" secondItem="FwY-hS-NyH" secondAttribute="width" multiplier="0.85" id="X5j-P3-BOX"/>
+                                            <constraint firstItem="ATQ-V5-Qze" firstAttribute="centerY" secondItem="FwY-hS-NyH" secondAttribute="centerY" constant="-20" id="Ykc-Jg-65s"/>
+                                            <constraint firstItem="3Fn-dq-l3D" firstAttribute="centerX" secondItem="FwY-hS-NyH" secondAttribute="centerX" id="dQ7-Kx-cvP"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqe-y6-kJR">
+                                        <rect key="frame" x="215" y="336.33333333333326" width="215" height="336.33333333333326"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZv-DP-UzR">
+                                                <rect key="frame" x="10.666666666666657" y="51.333333333333357" width="193.66666666666666" height="193.66666666666663"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="WZv-DP-UzR" secondAttribute="height" multiplier="1:1" id="et9-6P-7kR"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="pelicula4cartel.jpg"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profesion peligro" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="wsg-rs-ljp">
+                                                <rect key="frame" x="16" y="245" width="183" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Oh5-Vw-a5H"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="wsg-rs-ljp" firstAttribute="top" secondItem="WZv-DP-UzR" secondAttribute="bottom" id="7UW-Rk-OUR"/>
+                                            <constraint firstItem="WZv-DP-UzR" firstAttribute="width" secondItem="qqe-y6-kJR" secondAttribute="width" multiplier="0.9" id="9zZ-l5-TLU"/>
+                                            <constraint firstItem="WZv-DP-UzR" firstAttribute="centerY" secondItem="qqe-y6-kJR" secondAttribute="centerY" constant="-20" id="GFj-11-uEr"/>
+                                            <constraint firstItem="wsg-rs-ljp" firstAttribute="centerX" secondItem="qqe-y6-kJR" secondAttribute="centerX" id="Tsh-rA-M2n"/>
+                                            <constraint firstItem="wsg-rs-ljp" firstAttribute="width" secondItem="qqe-y6-kJR" secondAttribute="width" multiplier="0.85" id="kE4-xI-k8Q"/>
+                                            <constraint firstItem="WZv-DP-UzR" firstAttribute="centerX" secondItem="qqe-y6-kJR" secondAttribute="centerX" id="wUV-hm-5cD"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAw-Yj-k59">
+                                        <rect key="frame" x="0.0" y="336.33333333333326" width="215" height="336.33333333333326"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSp-x4-ezU">
+                                                <rect key="frame" x="10.666666666666671" y="51.333333333333357" width="193.66666666666663" height="193.66666666666663"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="lSp-x4-ezU" secondAttribute="height" multiplier="1:1" id="lbL-qb-Vmv"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="pelicula3cartel.jpg"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jugaremos en el bosque" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="H0l-EK-hx1">
+                                                <rect key="frame" x="16" y="245" width="183" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="N0l-xy-n67"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="H0l-EK-hx1" firstAttribute="centerX" secondItem="eAw-Yj-k59" secondAttribute="centerX" id="2BA-td-Jh6"/>
+                                            <constraint firstItem="lSp-x4-ezU" firstAttribute="width" secondItem="eAw-Yj-k59" secondAttribute="width" multiplier="0.9" id="J4x-vR-H8e"/>
+                                            <constraint firstItem="lSp-x4-ezU" firstAttribute="centerX" secondItem="eAw-Yj-k59" secondAttribute="centerX" id="JuY-Es-BcG"/>
+                                            <constraint firstItem="H0l-EK-hx1" firstAttribute="width" secondItem="eAw-Yj-k59" secondAttribute="width" multiplier="0.85" id="Ona-Jg-QXj"/>
+                                            <constraint firstItem="H0l-EK-hx1" firstAttribute="top" secondItem="lSp-x4-ezU" secondAttribute="bottom" id="SGm-02-hf5"/>
+                                            <constraint firstItem="lSp-x4-ezU" firstAttribute="centerY" secondItem="eAw-Yj-k59" secondAttribute="centerY" constant="-20" id="fQR-gh-TNA"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yxv-AM-gih">
+                                        <rect key="frame" x="215" y="0.0" width="215" height="336.33333333333331"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBJ-gh-gjP">
+                                                <rect key="frame" x="10.666666666666657" y="51.333333333333357" width="193.66666666666666" height="193.66666666666663"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="dBJ-gh-gjP" secondAttribute="height" multiplier="1:1" id="UTb-Qw-BNP"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="pelicula2cartel.jpg"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garfield fuera de casa" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="20H-md-YdM">
+                                                <rect key="frame" x="16" y="245" width="183" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Hin-uf-gEd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="dBJ-gh-gjP" firstAttribute="width" secondItem="yxv-AM-gih" secondAttribute="width" multiplier="0.9" id="47V-uE-lZ5"/>
+                                            <constraint firstItem="20H-md-YdM" firstAttribute="width" secondItem="yxv-AM-gih" secondAttribute="width" multiplier="0.85" id="CBR-LR-5jT"/>
+                                            <constraint firstItem="dBJ-gh-gjP" firstAttribute="centerY" secondItem="yxv-AM-gih" secondAttribute="centerY" constant="-20" id="Kf1-6B-Hmw"/>
+                                            <constraint firstItem="20H-md-YdM" firstAttribute="top" secondItem="dBJ-gh-gjP" secondAttribute="bottom" id="Tyo-8Y-4DB"/>
+                                            <constraint firstItem="20H-md-YdM" firstAttribute="centerX" secondItem="yxv-AM-gih" secondAttribute="centerX" id="rzR-YT-Xti"/>
+                                            <constraint firstItem="dBJ-gh-gjP" firstAttribute="centerX" secondItem="yxv-AM-gih" secondAttribute="centerX" id="z7g-DL-YOs"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="qqe-y6-kJR" secondAttribute="bottom" id="0pQ-VL-TBx"/>
+                                    <constraint firstItem="yxv-AM-gih" firstAttribute="width" secondItem="FwY-hS-NyH" secondAttribute="width" id="AXW-GP-AXU"/>
+                                    <constraint firstItem="eAw-Yj-k59" firstAttribute="height" secondItem="FwY-hS-NyH" secondAttribute="height" id="E2L-UN-GRk"/>
+                                    <constraint firstItem="yxv-AM-gih" firstAttribute="height" secondItem="FwY-hS-NyH" secondAttribute="height" id="FU2-HJ-Knx"/>
+                                    <constraint firstAttribute="trailing" secondItem="yxv-AM-gih" secondAttribute="trailing" id="KFE-tB-CCo"/>
+                                    <constraint firstItem="eAw-Yj-k59" firstAttribute="leading" secondItem="1dw-LG-R7Z" secondAttribute="leading" id="NmR-tM-087"/>
+                                    <constraint firstItem="FwY-hS-NyH" firstAttribute="height" secondItem="1dw-LG-R7Z" secondAttribute="height" multiplier="0.5" id="Vd9-cp-iyS"/>
+                                    <constraint firstItem="FwY-hS-NyH" firstAttribute="width" secondItem="1dw-LG-R7Z" secondAttribute="width" multiplier="0.5" id="WDn-fp-i1X"/>
+                                    <constraint firstItem="eAw-Yj-k59" firstAttribute="width" secondItem="FwY-hS-NyH" secondAttribute="width" id="WUG-YQ-5Yz"/>
+                                    <constraint firstItem="qqe-y6-kJR" firstAttribute="width" secondItem="FwY-hS-NyH" secondAttribute="width" id="dRk-Vo-6Zh"/>
+                                    <constraint firstItem="yxv-AM-gih" firstAttribute="top" secondItem="1dw-LG-R7Z" secondAttribute="top" id="fjL-7q-eB0"/>
+                                    <constraint firstItem="FwY-hS-NyH" firstAttribute="leading" secondItem="1dw-LG-R7Z" secondAttribute="leading" id="hK2-eA-ana"/>
+                                    <constraint firstItem="qqe-y6-kJR" firstAttribute="height" secondItem="FwY-hS-NyH" secondAttribute="height" id="prk-pD-jC2"/>
+                                    <constraint firstAttribute="trailing" secondItem="qqe-y6-kJR" secondAttribute="trailing" id="vUe-ck-ar0"/>
+                                    <constraint firstItem="FwY-hS-NyH" firstAttribute="top" secondItem="1dw-LG-R7Z" secondAttribute="top" id="xQq-C3-DfT"/>
+                                    <constraint firstAttribute="bottom" secondItem="eAw-Yj-k59" secondAttribute="bottom" id="zsn-Po-625"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tintColor"/>
@@ -37,19 +180,59 @@
                             <constraint firstItem="k56-3m-NAl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KBD-tS-8gm"/>
                             <constraint firstItem="k56-3m-NAl" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="SCb-Sa-pgT"/>
                             <constraint firstItem="k56-3m-NAl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WEz-Ra-owI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1dw-LG-R7Z" secondAttribute="bottom" id="Zhk-nj-LeA"/>
                             <constraint firstItem="FVl-jE-8ws" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="bZY-qr-zHQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1dw-LG-R7Z" secondAttribute="trailing" id="laf-5r-dz8"/>
+                            <constraint firstItem="1dw-LG-R7Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nO9-Gx-JWT"/>
                             <constraint firstItem="FVl-jE-8ws" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nTN-Gl-jlM"/>
+                            <constraint firstItem="1dw-LG-R7Z" firstAttribute="top" secondItem="FVl-jE-8ws" secondAttribute="bottom" id="pBl-M4-FVa"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="0xv-Fc-SNG">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="212"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h75-oo-qHl">
+                            <rect key="frame" x="8" y="14" width="144" height="144"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="h75-oo-qHl" secondAttribute="height" multiplier="1:1" id="SfM-jM-YHn"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Button" image="pelicula1cartel.jpg"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El reino del planeta de los simios" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="zsK-VS-ehn">
+                            <rect key="frame" x="12" y="158" width="136" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Fww-Yq-Jvm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="knl-Il-nRh"/>
+                    <constraints>
+                        <constraint firstItem="h75-oo-qHl" firstAttribute="centerY" secondItem="0xv-Fc-SNG" secondAttribute="centerY" constant="-20" id="2bA-C6-fIg"/>
+                        <constraint firstItem="zsK-VS-ehn" firstAttribute="centerX" secondItem="0xv-Fc-SNG" secondAttribute="centerX" id="5QS-pV-zQQ"/>
+                        <constraint firstItem="h75-oo-qHl" firstAttribute="centerX" secondItem="0xv-Fc-SNG" secondAttribute="centerX" id="7Qb-Vi-Jxc"/>
+                        <constraint firstItem="zsK-VS-ehn" firstAttribute="width" secondItem="0xv-Fc-SNG" secondAttribute="width" multiplier="0.85" id="9Cn-nG-MGb"/>
+                        <constraint firstItem="h75-oo-qHl" firstAttribute="width" secondItem="0xv-Fc-SNG" secondAttribute="width" multiplier="0.9" id="ihy-cO-Cju"/>
+                        <constraint firstItem="zsK-VS-ehn" firstAttribute="top" secondItem="h75-oo-qHl" secondAttribute="bottom" id="jet-6s-2j6"/>
+                    </constraints>
+                </view>
             </objects>
-            <point key="canvasLocation" x="132" y="-34"/>
+            <point key="canvasLocation" x="131.25" y="-34.859154929577464"/>
         </scene>
     </scenes>
     <resources>
         <image name="Cinépolis.png" width="1280" height="363"/>
         <image name="barra.jpg" width="639.91998291015625" height="102"/>
+        <image name="pelicula1cartel.jpg" width="800" height="800"/>
+        <image name="pelicula2cartel.jpg" width="800" height="800"/>
+        <image name="pelicula3cartel.jpg" width="800" height="800"/>
+        <image name="pelicula4cartel.jpg" width="800" height="800"/>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
