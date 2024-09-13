@@ -43,7 +43,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Button" image="pelicula1cartel.jpg"/>
                                                 <connections>
-                                                    <segue destination="02I-VY-z88" kind="presentation" modalPresentationStyle="automatic" id="GwQ-vx-r1X"/>
+                                                    <segue destination="02I-VY-z88" kind="presentation" modalPresentationStyle="automatic" modalTransitionStyle="coverVertical" id="GwQ-vx-r1X"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El reino del planeta de los simios" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="3Fn-dq-l3D">
