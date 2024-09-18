@@ -75,6 +75,9 @@
                                                 </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Button" image="pelicula4cartel.jpg"/>
+                                                <connections>
+                                                    <segue destination="3TS-J9-AJ8" kind="presentation" id="8oW-d6-jXn"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profesion peligro" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="wsg-rs-ljp">
                                                 <rect key="frame" x="16" y="245" width="183" height="50"/>
@@ -105,6 +108,9 @@
                                                 </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Button" image="pelicula3cartel.jpg"/>
+                                                <connections>
+                                                    <segue destination="gKz-cR-Npt" kind="presentation" id="jc9-pM-wvn"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jugaremos en el bosque" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="H0l-EK-hx1">
                                                 <rect key="frame" x="16" y="245" width="183" height="50"/>
@@ -135,6 +141,9 @@
                                                 </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Button" image="pelicula2cartel.jpg"/>
+                                                <connections>
+                                                    <segue destination="Anb-St-IdE" kind="presentation" modalPresentationStyle="automatic" id="xMS-3i-Fcw"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garfield fuera de casa" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="20H-md-YdM">
                                                 <rect key="frame" x="16" y="245" width="183" height="50"/>
@@ -266,7 +275,127 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BfQ-PO-cJn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="808" y="-30"/>
+            <point key="canvasLocation" x="-640" y="-35"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4tq-41-bmB">
+            <objects>
+                <viewController id="Anb-St-IdE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LGz-aF-Iea">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pelicula2sinopsis.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6rJ-se-CBY">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="430"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6rJ-se-CBY" secondAttribute="height" multiplier="1:1" id="Khr-cW-Dxh"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="xeU-AD-rXM">
+                                <rect key="frame" x="10" y="430" width="410" height="492"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hoF-tF-rQS"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xeU-AD-rXM" firstAttribute="leading" secondItem="hoF-tF-rQS" secondAttribute="leading" constant="10" id="0Mh-M2-cbN"/>
+                            <constraint firstItem="6rJ-se-CBY" firstAttribute="centerX" secondItem="LGz-aF-Iea" secondAttribute="centerX" id="Ed6-pg-W02"/>
+                            <constraint firstItem="6rJ-se-CBY" firstAttribute="width" secondItem="LGz-aF-Iea" secondAttribute="width" id="WaF-Fb-MxM"/>
+                            <constraint firstItem="hoF-tF-rQS" firstAttribute="bottom" secondItem="xeU-AD-rXM" secondAttribute="bottom" id="YOa-eS-5Kb"/>
+                            <constraint firstItem="xeU-AD-rXM" firstAttribute="top" secondItem="6rJ-se-CBY" secondAttribute="bottom" id="hZs-u5-p6G"/>
+                            <constraint firstItem="hoF-tF-rQS" firstAttribute="trailing" secondItem="xeU-AD-rXM" secondAttribute="trailing" constant="10" id="x8n-vr-Ds2"/>
+                            <constraint firstItem="6rJ-se-CBY" firstAttribute="top" secondItem="hoF-tF-rQS" secondAttribute="top" id="zS5-Vf-bmu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bLw-2O-gJk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="-35"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kzy-0V-4jw">
+            <objects>
+                <viewController id="gKz-cR-Npt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4d-JQ-KeV">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pelicula3sinopsis.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="klO-6c-zrb">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="430"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="klO-6c-zrb" secondAttribute="height" multiplier="1:1" id="7nB-9n-jRI"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="0m5-Kk-IIW">
+                                <rect key="frame" x="10" y="430" width="410" height="492"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LT5-Dm-q7a"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LT5-Dm-q7a" firstAttribute="bottom" secondItem="0m5-Kk-IIW" secondAttribute="bottom" id="9rg-kH-fNS"/>
+                            <constraint firstItem="0m5-Kk-IIW" firstAttribute="top" secondItem="klO-6c-zrb" secondAttribute="bottom" id="Jdq-ig-hYo"/>
+                            <constraint firstItem="klO-6c-zrb" firstAttribute="top" secondItem="LT5-Dm-q7a" secondAttribute="top" id="SdW-yT-9aK"/>
+                            <constraint firstItem="LT5-Dm-q7a" firstAttribute="trailing" secondItem="0m5-Kk-IIW" secondAttribute="trailing" constant="10" id="baz-xT-YdL"/>
+                            <constraint firstItem="klO-6c-zrb" firstAttribute="width" secondItem="j4d-JQ-KeV" secondAttribute="width" id="ewe-Xk-8iV"/>
+                            <constraint firstItem="0m5-Kk-IIW" firstAttribute="leading" secondItem="LT5-Dm-q7a" secondAttribute="leading" constant="10" id="i6B-Na-glz"/>
+                            <constraint firstItem="klO-6c-zrb" firstAttribute="centerX" secondItem="j4d-JQ-KeV" secondAttribute="centerX" id="xFU-f6-0YM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Bn-Ov-hph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131" y="655"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YXJ-fH-RWY">
+            <objects>
+                <viewController id="3TS-J9-AJ8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vTB-rM-ZkE">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pelicula4sinopsis.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qXx-J8-5cv">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="430"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qXx-J8-5cv" secondAttribute="height" multiplier="1:1" id="LdJ-K8-ba7"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="MiQ-fU-mbY">
+                                <rect key="frame" x="10" y="430" width="410" height="492"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dxP-9h-b4t"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qXx-J8-5cv" firstAttribute="width" secondItem="vTB-rM-ZkE" secondAttribute="width" id="6mz-bU-OUw"/>
+                            <constraint firstItem="MiQ-fU-mbY" firstAttribute="leading" secondItem="dxP-9h-b4t" secondAttribute="leading" constant="10" id="HDX-dq-Lh9"/>
+                            <constraint firstItem="MiQ-fU-mbY" firstAttribute="top" secondItem="qXx-J8-5cv" secondAttribute="bottom" id="Hds-S5-d8Y"/>
+                            <constraint firstItem="dxP-9h-b4t" firstAttribute="bottom" secondItem="MiQ-fU-mbY" secondAttribute="bottom" id="QRJ-ge-eIO"/>
+                            <constraint firstItem="qXx-J8-5cv" firstAttribute="centerX" secondItem="vTB-rM-ZkE" secondAttribute="centerX" id="gVm-kL-rhu"/>
+                            <constraint firstItem="dxP-9h-b4t" firstAttribute="trailing" secondItem="MiQ-fU-mbY" secondAttribute="trailing" constant="10" id="iGf-TO-ciC"/>
+                            <constraint firstItem="qXx-J8-5cv" firstAttribute="top" secondItem="dxP-9h-b4t" secondAttribute="top" id="mfX-tS-tPZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hrf-Uo-fuu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="-720"/>
         </scene>
     </scenes>
     <resources>
@@ -275,10 +404,13 @@
         <image name="pelicula1cartel.jpg" width="800" height="800"/>
         <image name="pelicula1sinopsisq.jpg" width="800" height="800"/>
         <image name="pelicula2cartel.jpg" width="800" height="800"/>
+        <image name="pelicula2sinopsis.jpg" width="800" height="800"/>
         <image name="pelicula3cartel.jpg" width="800" height="800"/>
+        <image name="pelicula3sinopsis.jpg" width="800" height="800"/>
         <image name="pelicula4cartel.jpg" width="800" height="800"/>
+        <image name="pelicula4sinopsis.jpg" width="800" height="800"/>
         <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
